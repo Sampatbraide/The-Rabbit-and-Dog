@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+h1, h2 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+p {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+ul {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  padding-left: 20px;
+}
+
+.centered-image {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.centered-image img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 9px;
+  box-shadow: 0 4px 11px rgba(0, 0, 0, 0.1);
+}
+
+.rabbit-img {
+  display: block;
+  max-width: 400px;
+  width: 80%;
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.boxer-img {
+  display: block;
+  max-width: 400px;
+  width: 80%;
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.bottom-text {						
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+  letter-spacing: 0.3rem;
+  margin-top: 5rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.0rem;
+    background-color: grey;
+}
